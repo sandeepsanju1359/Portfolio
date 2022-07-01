@@ -1,0 +1,45 @@
+ .about_container{
+    
+    padding: 0 10%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_text1{
+    font-size: 23px;
+}
+
+.highlighted_text {
+    color:red;
+}
+
+.about_text2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting';
+    margin: -15px 0 ;
+}
+
+.about_text3{
+    font-size: 30px;
+}
+
+.about_text4{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+  .about_button{
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 30px;
+    background-color:#181818;
+    color: red;
+    cursor: pointer;
+    box-shadow: -1px -1px 2px whitesmoke;
+   
+
+}   
+
