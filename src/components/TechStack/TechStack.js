@@ -58,15 +58,15 @@ function TechStack() {
         },
     ]
 
-    function showIcon(value){
-        return(
-            <div className="techstack_image_element_container">
-                <img src={value.iconImage} alt={value.iconAltProperty} />
-                <p>{value.iconName}</p>
-            </div>
-        )
+    // function showIcon(value){
+    //     return(
+    //         <div className="techstack_image_element_container">
+    //             <img src={value.iconImage} alt={value.iconAltProperty} />
+    //             <p>{value.iconName}</p>
+    //         </div>
+    //     )
 
-    }
+    // }
 
   return (
     <div className="techstack_container">
@@ -95,7 +95,7 @@ function TechStack() {
                 //     <img src={value.iconImage} alt={value.iconAltProperty} />
                 //     <p>{value.iconName}</p>
                 // </div>
-                showIcon(value)
+                <TechStackIcon data={value} />
             ))}
 
         </div>
@@ -110,51 +110,4 @@ export default TechStack;
 
 
 
-// function TechStack(){
-//     return(
-//         <div className="techStack_container">
-//             <p className="techStack_title">TechStack</p>
-//             <div className="techStack_image_rows_container">
-//                 <div className="techStack_image_container_row1">
-//                     <div className="techStack_image_element_container">
-//                         <img src={react} alt="RactImaage"/>
-//                         <p>React</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={js} alt="RactImaage"/>
-//                         <p>JavaScript</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={css} alt="RactImaage"/>
-//                         <p>CSS</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={html} alt="RactImaage"/>
-//                         <p>HTML</p>
-//                     </div>
-//                 </div>
-
-//                 <div className="techStack_image_container_row2">
-//                     <div className="techStack_image_element_container">
-//                         <img src={cpp} alt="RactImaage"/>
-//                         <p>Cpp</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={android} alt="RactImaage"/>
-//                         <p>Android</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={python} alt="RactImaage"/>
-//                         <p>Python</p>
-//                     </div>
-//                     <div className="techStack_image_element_container">
-//                         <img src={github} alt="RactImaage"/>
-//                         <p>Github</p>
-//                     </div>
-//                 </div>
-            
-//             </div>
-//         </div>
-//     )
-// }
 
