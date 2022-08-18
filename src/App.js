@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import About from "./components/About/About"
 import TechStack from './components/TechStack/TechStack';
+import Experience from './components/Experience/Experience';
 // 1. Navbar
 // 2. About
 // 3. Tech Stack
@@ -16,6 +17,7 @@ function App() {
      <Navbar/>
      <About/>
      <TechStack/>
+     <Experience />
     </div>
   );
 }
