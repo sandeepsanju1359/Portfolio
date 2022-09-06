@@ -1,0 +1,13 @@
+.pro_container {
+    margin: 150px 0;
+}
+.pro_title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.pro_projectsbox_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
